@@ -1,4 +1,4 @@
-# Java11
+## misc ##
 
-.var : var
-    NON_VOID -> var $expr$
+.var : var name = expr
+    NON_VOID                →   var $var:suggestVariableName()$ = $expr$;
