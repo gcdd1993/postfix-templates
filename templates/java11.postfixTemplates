@@ -1,0 +1,3 @@
+# Java11
+.var : var
+    NON_VOID -> var $expr$
